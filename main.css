@@ -1,0 +1,137 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 0;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 40%;
+}
+
+.cpt {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cpt form {
+    width: 400px;
+    background-color: aliceblue;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 6px;
+    position: relative;
+}
+
+.cpt form h2 {
+    font-size: 30px;
+    text-align: center;
+    left: 15%;
+    margin-top: 0;
+}
+
+.cpt form h4 {
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    left: 15%;
+    margin-top: auto;
+}
+
+.cpt input {
+    padding: 8px 5px;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: 0;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+}
+
+.form-a {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.form-a input {
+    width: 45%;
+}
+
+.email {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.password {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.label-class {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.datn-select {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datn-select select {
+    width: 110px;
+    padding: 8px 5px;
+    border-radius: 6px;
+    outline: 0;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.gen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gen span {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.gen span input {
+    margin-left: 15px;
+}
+
+.texte p {
+    font-size: 11px;
+}
+
+.btn {
+    text-align: center;
+}
+
+#btn {
+    margin-top: 20px;
+    padding: 8px 70px;
+    background-color: #00a400;
+    color: aliceblue;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
